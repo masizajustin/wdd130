@@ -1,3 +1,65 @@
 main {
     max-width: 840px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #ABC8C7;
+    --secondary-color: #2D3047;
+    --accent1-color: #B7918C;
+    --accent2-color: #127475;
+
+    --heading-font: "Baskervville SC", serif;
+    --paragraph-font: 'Montserrat',serif
+
+    --nav-background-color: #B7918C ;
+    --nav-link-color: #606164;
+    --nav-hover-link-color: #F6511D;
+    --nav-hover-background-color: #FFD6E0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--paragraph-font);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-hover-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color);
+}
+
