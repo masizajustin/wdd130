@@ -20,10 +20,16 @@ body {
     --heading-font: "Baskervville SC", serif;
     --paragraph-font: 'Montserrat',serif
 
-    --nav-background-color: #B7918C ;
+    --nav-background-color: #127475;
     --nav-link-color: #606164;
     --nav-hover-link-color: #F6511D;
     --nav-hover-background-color: #FFD6E0;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
