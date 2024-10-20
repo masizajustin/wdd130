@@ -1,0 +1,70 @@
+/* Define the CSS variables in the document :root pseudo-class selector 
+from the color scheme you have selected and documented in this week's site plan/graphic identity
+ assignment.
+Begin by styling the headings and paragraph elements.
+Add colors to the fonts.*/
+:root {
+    --primary-color: #ffb703;
+    --secondary-color: #0a4c65;
+    --accent1-color: #219ebc;
+    --accent2-color: #8ecae6;
+    /* color pallette URL */
+    /*https://coolors.co/8ecae6-219ebc-0a4c65-ffb703*/
+    --heading-font: ;
+    --text-font: ;
+  }
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: #0a4c65;
+  position: absolute;
+}
+
+article {
+  position: absolute;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: #0a4c65;
+}
+
+p {
+    color: ;
+    font-family: ;
+    font-weight: 100;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+article.img {
+  float: left;
+  margin-right: 10px;
+  clear:both;
+}
+article.p {
+  margin-left: 0px;
+  overflow:auto;
+  display:block;
+}
+
+article {
+  background-image: rgb(0, 0, 0, 0.5);
+  opacity: 0.5
+  }
